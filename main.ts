@@ -10,6 +10,8 @@ input.onGesture(Gesture.Shake, function () {
             # # . . #
             `)
         music.playTone(392, music.beat(BeatFraction.Whole))
+        music.playTone(349, music.beat(BeatFraction.Whole))
+        music.playTone(330, music.beat(BeatFraction.Whole))
     } else if (jugada == 2) {
         basic.showLeds(`
             # # # # #
@@ -19,6 +21,8 @@ input.onGesture(Gesture.Shake, function () {
             # # # # #
             `)
         music.playTone(392, music.beat(BeatFraction.Whole))
+        music.playTone(349, music.beat(BeatFraction.Whole))
+        music.playTone(330, music.beat(BeatFraction.Whole))
     } else if (jugada == 3) {
         basic.showLeds(`
             . . . . .
@@ -28,5 +32,7 @@ input.onGesture(Gesture.Shake, function () {
             . # # # .
             `)
         music.playTone(392, music.beat(BeatFraction.Whole))
+        music.playTone(349, music.beat(BeatFraction.Whole))
+        music.playTone(330, music.beat(BeatFraction.Whole))
     }
 })
